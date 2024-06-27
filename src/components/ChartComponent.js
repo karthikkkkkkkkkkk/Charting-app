@@ -1,4 +1,4 @@
-// src/components/ChartComponent.js
+
 import React, { useEffect, useState } from 'react';
 import { LineChart, Line, XAxis, YAxis, Tooltip, CartesianGrid } from 'recharts';
 
@@ -14,8 +14,7 @@ const ChartComponent = ({ timeframe }) => {
   }, []);
 
   const filterDataByTimeframe = (data, timeframe) => {
-    // Implement filtering logic based on timeframe (daily, weekly, monthly)
-    // For now, returning data as is for simplicity
+
     return data;
   };
 

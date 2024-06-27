@@ -1,4 +1,4 @@
-// src/App.js
+
 import React, { useState } from 'react';
 import ChartComponent from './components/ChartComponent';
 import TimeframeSelector from './components/TimeframeSelector';

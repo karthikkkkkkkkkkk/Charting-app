@@ -1,4 +1,4 @@
-// src/components/TimeframeSelector.js
+
 import React from 'react';
 
 const TimeframeSelector = ({ onSelect }) => (
